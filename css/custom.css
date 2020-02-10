@@ -1,0 +1,21 @@
+.nav-banner {
+    background-color: #931a1a;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 100%;
+    background: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #262524;
+    padding: 1rem;
+}
+
+.menu-item-container {
+    background-color: rgb(0,0,0,.75)
+}
