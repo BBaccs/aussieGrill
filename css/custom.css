@@ -1,5 +1,28 @@
+@font-face {
+    font-family: bureauGrotCondensedBlack;
+    src: url(../assets/fonts/bureauGrotCondensedBlack.otf);
+}
+
+@font-face {
+    font-family: bureauGrotMedium;
+    src: url(../assets/fonts/bureauGrotMedium.otf);
+}
+
+html > * {
+    font-family: bureauGrotMedium !important;    
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: bureauGrotCondensedBlack !important;  
+}
+
 .nav-banner {
-    background-color: #931a1a;
+    background-color: #D3461D;
+}
+
+.nav-uncollapsed > li > a {
+    font-size: 12px;
+    padding: .25rem;
 }
 
 button {
@@ -11,10 +34,56 @@ button {
     color: inherit;
 }
 
-footer {
-    background-color: #262524;
-}
-
 .menu-item-container {
     background-color: rgb(0,0,0,.75)
 }
+
+
+.btn-primary {
+    background-color: #D3461D;
+    border-color: #CE461C;
+}
+
+.bg-ag-dark {
+    background-color: #373737;
+}
+
+.nav-link {
+    color: white;
+}
+
+button {
+    font-size: 1.5rem;
+}
+
+.carousel-item > img {
+    min-width: 450px;
+    transform: scale3d(1, 1, 1) translateX(0px);
+}
+
+.pseudo-test:before {
+    content : "";
+    position: absolute;
+    left    : 97px;
+    bottom  : -145px;
+    height  : 1px;
+    width   : 180px;  /* or 100px */
+    border-bottom: 3px solid #FBBE00;
+}
+
+main > .container {
+    margin-top: 20px;
+}
+
+footer {
+    background: url(../assets/images/agFooterUnofficial.jpg);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* 
+#373737
+
+#908E83
+#FBBE00 */

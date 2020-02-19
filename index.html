@@ -5,30 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
+
     <title>Aussie Grill</title>
 </head>
 <!-- class="text-white" -->
 <body>
 
     <div class="d-flex justify-content-end py-2 nav-banner">
-        <button style="color: white;" class="mr-2">View Menu Now ></button>
+        <div class="mr-4">
+            <span class="mr-2" style="color: white;">Follow our Adventures on</span>
+            <a style="color: white;" href="https://www.facebook.com/Aussie-Grill-by-Outback-381611752680353/" class="fa fa-lg fa-facebook"></a>
+            <a style="color: white;" href="#" class="fa fa-lg fa-twitter mx-2"></a>
+            <a style="color: white;" href="https://www.instagram.com/explore/tags/aussiegrill/" class="fa fa-lg fa-instagram"></a>
+        </div>
+        <!-- <button style="color: white;" class="mr-2">Social Media Icons/ Witt </button> -->
     </div>
     <div class="pos-f-t sticky-top">
-        <nav class="navbar navbar-light bg-white">
+        <nav class="navbar navbar-dark bg-ag-dark justify-content-start">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="/">
-                <img style="width: 100px;" src="assets/images/agLogo.jpg" alt="" />
+            <ul class="nav nav-uncollapsed ml-2">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-disabled="true">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-disabled="true">Careers</a>
+                    </li>
+                </ul>
+            <a class="ml-2" href="/">
+                <img style="width: 100px;" src="assets/images/agLogoOfficial.png" alt="" />
             </a>
         </nav>
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-white p-4">
+            <div class="bg-ag-dark p-4">
                 <ul class="nav d-flex flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" href="/">Home</a>
@@ -37,13 +61,13 @@
                         <a class="nav-link" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">About Us</a>
+                        <a class="nav-link" href="#">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Careers</a>
+                        <a class="nav-link" href="#">Careers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Catering</a>
+                        <a class="nav-link" href="#">Catering</a>
                     </li>
                 </ul>
             </div>
@@ -51,28 +75,29 @@
     </div>
 
     <div id="homePageCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" style="bottom: -20px;">
             <li data-target="#homePageCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#homePageCarousel" data-slide-to="1"></li>
             <li data-target="#homePageCarousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img style="min-height: 235px;" src="assets/images/agHeader.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-md-block">
-                    <h5>Aussie Grill</h5>
-                    <p>by Outback</p>
+                <img src="assets/images/agBaconBombOfficial.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block" style="left: -80px;
+                top: -20px;">
+                    <h1 style="margin-bottom: 0;">Aussie Grill</h1>
+                    <img width="50%" src="assets/images/agFuelYourAdventure.png" alt="" />
                 </div>
             </div>
             <div class="carousel-item">
-                <img style="min-height: 235px;" src="assets/images/agLogo.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/agCrispySirachaOfficial.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <!-- <h5>Fuel your adventure</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img style="min-height: 235px;" src="assets/images/agHeader.jpg" class="d-block w-100" alt="...">
+                <img src="assets/images/agAussieChickenSalad.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-md-block">
                     <!-- <h5>Third slide label</h5>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
@@ -89,24 +114,97 @@
         </a>
     </div>
 
-<main style="background-color:beige;" class="container py-3">
-    <div style="background-color: white;" class="container p-4 pt-5">
+<main style="background-color:#f6f2e8;" class="container py-3">
+<!-- 
+    <div style="background-color: white;    margin-top: -20px;
+    background-color: white;
+    padding: 1.5rem .75rem .25rem .75rem;
+    margin-bottom: 1rem;" class="container">
+        <p style="color: #FBBE00; text-align: center; padding: 1rem; font-size: 1.25rem;">A menu filled with big, bold, Aussie-inspired eats awaits. WELCOME TO AUSSIE GRILL.</p>
+    </div> -->
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
         <h2 style="font-family: Gibson-SemiBold;
         line-height: .9230769230769231em;
         margin-bottom: 2px;
-        letter-spacing: .2px; font-size: 1.5rem; text-align: center;">START YOUR ORDER NOW</h2>
-        <div class="row justify-content-center mt-4">
-            <button class="btn btn-primary btn-lg">PICKUP</button> <span class="mx-2 my-auto"> -OR- </span> <button class="btn btn-primary btn-lg">DELIVERY</button>
-        </div>
-        <div class="row mt-4">
-            <p class="text-center">(Delivery available through Uber Eats & Doordash)</p>
-        </div>
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">HANDHELDS</h2>
+    </div>
+    <div class="pseudo-test" class="w-100">
+        <a href="#">
+            <img style="width: 100%; height: 200px;" src="assets/images/agBraisedBeefOfficial.jpg" alt="" />
+        </a>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">LARGE PLATES</h2>
     </div>
     <div class="w-100">
         <a href="#">
-            <img style="width: 100%; height: 200px;" src="assets/images/agLargePlate.jpg" alt="" />
+            <img style="width: 100%; height: 200px;" src="assets/images/agRibs.jpg" alt="" />
         </a>
     </div>
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">SIDES & SNACKS</h2>
+    </div>
+    <div class="w-100">
+        <div>
+            <a href="#">
+                <div></div>
+                <img style="width: 100%; height: 200px;" src="assets/images/agHandBreadedChickenTenders.jpg" alt="" />
+            </a>
+        </div>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">KIDS</h2>
+    </div>
+    <div class="w-100">
+        <a href="#">
+            <img style="width: 100%; height: 200px;" src="assets/images/agBloomPedals.jpg" alt="" />
+        </a>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">SALADS</h2>
+    </div>
+    <div class="w-100">
+        <a href="#">
+            <!-- Replace IMG -->
+            <img style="width: 100%; height: 200px;" src="assets/images/agAussieChickenSalad.jpg" alt="" />
+        </a>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 d-flex justify-content-center flex-column">
+        <img style="width: 60px;" class="mx-auto" src="assets/images/bullTest.png" alt="" />
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 2rem; text-align: center; margin-top: 1rem;">DESERTS & BEVERAGES</h2>
+    </div>
+    <div class="w-100">
+        <a href="#">
+            <img style="width: 100%; height: 200px;" src="assets/images/agDesertUnofficial.jpg" alt="" />
+        </a>
+    </div>
+
     <div style="background-color: white;" class="container p-4 pt-5 mt-4">
         <h2 style="font-family: Gibson-SemiBold;
         line-height: .9230769230769231em;
@@ -118,12 +216,48 @@
     </div>
     <div class="w-100">
         <a href="#">
-            <img style="width: 100%; height: 200px;" src="assets/images/agLargePlate.jpg" alt="" />
+            <img style="width: 100%; height: 200px;" src="assets/images/toppedChickenWithSalad.jpg" alt="" />
+        </a>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 pt-5 mt-4">
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 1.5rem; text-align: center;">CAREERS, WE'RE HIRING!</h2>
+        <div class="row justify-content-center mt-4">
+            <!-- ADVENTURE WITH US
+            ADVENTURE BOLDY
+            GO TO THE UNCHARTED -->
+            <button class="btn btn-primary mr-4">JOIN THE FAM</button>
+            <button class="btn btn-primary">ABOUT US</button>
+        </div>
+    </div>
+    <div class="w-100">
+        <a href="#">
+            <img style="width: 100%; height: 200px;" src="assets/images//agCareersTest.png" alt="" />
+        </a>
+    </div>
+
+    <div style="background-color: white;" class="container p-4 pt-5 mt-4">
+        <h2 style="font-family: Gibson-SemiBold;
+        line-height: .9230769230769231em;
+        margin-bottom: 2px;
+        letter-spacing: .2px; font-size: 1.5rem; text-align: center;">FRANCHISING INFORMATION</h2>
+        <div class="row justify-content-center mt-4">
+            <button class="btn btn-primary">ADVENTURE WITH US</button>
+        </div>
+    </div>
+    <div class="w-100">
+        <a href="#">
+            <img style="width: 100%; height: 200px;" src="assets/images/agFranchizeUnofficial.jpg" alt="" />
         </a>
     </div>
 </main>
 
-<footer style="color: white; text-align: center;" class="py-1">Aussie Grill footer</footer>
+<footer style="color: white; text-align: center;" class="py-1 bg-ag-dark">
+    <img style="width: 100%; margin-top: 40px;" src="assets/images/agGoFurtherWithFlavorUnofficial.png" alt="" />
+</footer>
 
 </body>
 
