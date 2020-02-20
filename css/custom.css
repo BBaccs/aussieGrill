@@ -67,15 +67,15 @@ button {
     transform: scale3d(1, 1, 1) translateX(0px);
 }
 
-.pseudo-test:before {
+/* .pseudo-test:before {
     content : "";
     position: absolute;
     left    : 97px;
     bottom  : -145px;
     height  : 1px;
-    width   : 180px;  /* or 100px */
+    width   : 180px; 
     border-bottom: 3px solid #FBBE00;
-}
+} */
 
 main > .container {
     margin-top: 20px;
