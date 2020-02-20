@@ -104,6 +104,7 @@ footer {
 
 #menu-category-page  ul {
     padding: 0;
+    margin: 0;
 }
 
 #menu-category-page div {
@@ -113,6 +114,7 @@ footer {
 #menu-category-page h2 {
     padding: 1.25rem .5rem;
     margin: 0;
+    font-size: 1.5rem;
 }
 
 /* #menu-category-page li:active {
@@ -125,6 +127,7 @@ footer {
     color: white;
     text-decoration: underline;
     text-decoration-color: #FBBE00;
+    border-color: #CE461C;
 }
 
 #menu-category-page * {
