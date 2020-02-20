@@ -8,12 +8,18 @@
     src: url(../assets/fonts/bureauGrotMedium.otf);
 }
 
+@font-face {
+    font-family: bureauGrotCondensedBook;
+    src: url(../assets/fonts/bureauGrotCondensedBook.otf);
+}
+
+
 html > * {
     font-family: bureauGrotMedium !important;    
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: bureauGrotMedium !important;  
+    font-family: bureauGrotCondensedBook !important;  
 }
 
 .nav-banner {
