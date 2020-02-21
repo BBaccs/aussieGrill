@@ -2,10 +2,10 @@ body {
     text-transform: uppercase !important;
 }
 
-#testingBackgroundImg {
+/* #testingBackgroundImg {
     background-image: url(../assets/images/test123.png);
     background-position: center;
-}
+} */
 
 @font-face {
     font-family: bureauGrotCondensedBlack;
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6 {
     border-color: rgba(255,255,255,.5);
 }
 
-.navbar.navbar-dark.bg-ag-dark {
+.navbar.navbar-dark.bg-ag-dark, #navbarToggleExternalContent {
     background-image: url(../assets/graphicElements/agConcreteDark.png);
 }
 
@@ -66,10 +66,6 @@ button {
 .btn-primary {
     background-color: #D3461D;
     border-color: #CE461C;
-}
-
-.bg-ag-dark {
-    background-color: #373737;
 }
 
 .nav-link {
