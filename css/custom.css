@@ -91,10 +91,10 @@ main > .container {
 }
 
 footer {
-    background: url(../assets/images/agFooterUnofficial.jpg);
-    height: 250px;
-    background-repeat: no-repeat;
-    background-position: center;
+    /* background: url(../assets/images/agFooterUnofficial.jpg); */
+    height: 100px;
+    /* background-repeat: no-repeat;
+    background-position: center; */
 }
 
 #menu-category-page  ul  li {
@@ -142,11 +142,18 @@ footer {
 
 
 
-/* TEST INDEX.HTML */
+/* TEST  */
 .testTexture {
     background-image: url(../assets/images/test123.png);
     background-position: bottom;
 }
+
+#test12345 {
+    background-image: url(../assets/graphicElements/Picture3.png);
+    background-position: center;
+}
+
+
 
 
 
