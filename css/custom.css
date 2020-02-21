@@ -46,7 +46,7 @@ button {
 }
 
 .menu-item-container {
-    background-color: rgb(0,0,0,.75)
+    background-color: rgb(0,0,0,.75);
 }
 
 
@@ -148,10 +148,10 @@ footer {
     background-position: bottom;
 }
 
-#test12345 {
+/* #test12345 {
     background-image: url(../assets/graphicElements/Picture3.png);
     background-position: center;
-}
+} */
 
 
 
