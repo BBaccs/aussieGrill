@@ -2,6 +2,10 @@ body {
     text-transform: uppercase !important;
 }
 
+#testingBackgroundImg {
+    background-image: url(../assets/images/test123.png);
+    background-position: center;
+}
 
 @font-face {
     font-family: bureauGrotCondensedBlack;
@@ -30,6 +34,15 @@ h1,h2,h3,h4,h5,h6 {
 .nav-banner {
     background-color: #D3461D;
 }
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.5);
+}
+
+.navbar.navbar-dark.bg-ag-dark {
+    background-image: url(../assets/graphicElements/agConcreteDark.png);
+}
+
 
 .nav-uncollapsed > li > a {
     font-size: 12px;
