@@ -1,3 +1,8 @@
+body {
+    text-transform: uppercase !important;
+}
+
+
 @font-face {
     font-family: bureauGrotCondensedBlack;
     src: url(../assets/fonts/bureauGrotCondensedBlack.otf);
@@ -138,8 +143,9 @@ footer {
 
 
 /* TEST INDEX.HTML */
-#testTexture {
-    background-image: url(../assets/images/agTextureUnofficial.png);
+.testTexture {
+    background-image: url(../assets/images/test123.png);
+    background-position: bottom;
 }
 
 
