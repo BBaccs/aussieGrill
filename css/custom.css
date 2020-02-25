@@ -2,6 +2,10 @@ body {
     text-transform: uppercase !important;
 }
 
+a {
+    color: black;
+}
+
 /* #testingBackgroundImg {
     background-image: url(../assets/images/test123.png);
     background-position: center;
@@ -29,6 +33,12 @@ html > * {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: bureauGrotCondensedBook !important;  
+}
+
+/* MAYBE DELETE IT WORKED BEFORE FINE */
+nav.navbar.navbar-dark.bg-ag-dark  {
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .nav-banner {
@@ -125,7 +135,7 @@ footer {
     text-align: center;
 }
 
-#menu-category-page h2 {
+#menu-category-page h2, #menu-category-page h3 {
     padding: 1.25rem .5rem;
     margin: 0;
     font-size: 1.5rem;
@@ -157,10 +167,20 @@ footer {
     background-position: bottom;
 } */
 
+
+/* 
+border-bottom: 10px solid;
+border-image: url(../assets/graphicElements/Picture2.png) 30; */
+
 #testTexture {
     background-image: url(../assets/images/agBrownUnoffcial.png)
 }
 
+#testing12345 {
+    background-image: url(../assets/graphicElements/Grit.png);
+    /* background-size: contain;
+    background-position: center; */
+}
 
 
 /* #test12345 {
