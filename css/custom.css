@@ -135,7 +135,7 @@ footer {
     text-align: center;
 }
 
-#menu-category-page h2, #menu-category-page h3 {
+#menu-category-page h2, #menu-category-page h3, #menu-category-page h4 {
     padding: 1.25rem .5rem;
     margin: 0;
     font-size: 1.5rem;
