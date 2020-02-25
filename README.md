@@ -3,4 +3,6 @@
 
 
 
+REMOVE DISABLED DROPDOWN NAV MENU (ARIA-DISABLED="TRUE")
+
 **Take inspiration from Panda Express, Chipolte, OBS & Carrabbas
