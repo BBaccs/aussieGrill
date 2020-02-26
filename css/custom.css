@@ -6,6 +6,11 @@ a {
     color: black;
 }
 
+a:active, a:hover {
+    color: #D3461D;
+    text-decoration: none;
+}
+
 /* #testingBackgroundImg {
     background-image: url(../assets/images/test123.png);
     background-position: center;
