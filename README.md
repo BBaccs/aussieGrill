@@ -6,3 +6,14 @@
 REMOVE DISABLED DROPDOWN NAV MENU (ARIA-DISABLED="TRUE")
 
 **Take inspiration from Panda Express, Chipolte, OBS & Carrabbas
+
+
+
+Helpful reminders:
+
+/   = Root directory
+   .   = This location
+   ..  = Up a directory
+   ./  = Current directory
+   ../ = Parent of current directory
+   ../../ = Two directories backwards
