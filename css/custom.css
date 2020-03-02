@@ -11,11 +11,6 @@ a:active, a:hover {
     text-decoration: none;
 }
 
-/* #testingBackgroundImg {
-    background-image: url(../assets/images/test123.png);
-    background-position: center;
-} */
-
 @font-face {
     font-family: bureauGrotCondensedBlack;
     src: url(../assets/fonts/bureauGrotCondensedBlack.otf);
@@ -96,19 +91,6 @@ button {
     transform: scale3d(1, 1, 1) translateX(0px);
 }
 
-/* .pseudo-test:before {
-    content : "";
-    position: absolute;
-    left    : 97px;
-    bottom  : -145px;
-    height  : 1px;
-    width   : 180px; 
-    border-bottom: 3px solid #FBBE00;
-} */
-
-
-
-
 /* MENU CATEGORY PAGE */
 main > .container {
     margin-top: 20px;
@@ -146,11 +128,6 @@ footer {
     font-size: 1.5rem;
 }
 
-/* #menu-category-page li:active {
-    background-color: #D3461D;
-    color: white;
-} */
-
 #menu-category-page li:active {
     background-color: #D3461D;
     color: white;
@@ -177,66 +154,3 @@ footer {
     background-color: #D3461D;
     border: 1px solid #CE461C;
 }
-
-
-
-
-/* TEST  */
-/* .testTexture {
-    background-image: url(../assets/images/test123.png);
-    background-position: bottom;
-} */
-
-
-/* 
-border-bottom: 10px solid;
-border-image: url(../assets/graphicElements/Picture2.png) 30; */
-
-#testTexture {
-    background-image: url(../assets/images/agBrownUnoffcial.png)
-}
-
-#testing12345 {
-    background-image: url(../assets/graphicElements/Grit.png);
-    /* background-size: contain;
-    background-position: center; */
-}
-
-/* #testingDescription li h3 {
-    padding-bottom: .5rem;
-}
-
-#testingDescription li p {
-    font-size: .75rem; 
-    margin: 0px; 
-    padding-bottom: 1rem; 
-    color: #D3461D;
-} */
-
-
-/* #test12345 {
-    background-image: url(../assets/graphicElements/Picture3.png);
-    background-position: center;
-} */
-
-
-
-
-
-/* #baconBombBackSlide {
-    background-image: url(../assets/images/agBaconBombOfficial.jpg);
-    width: 450px;
-    height: 337px;
-    background-position-x: right;
-    background-size: cover;
-} */
-
-
-/* 
-#373737
-
-#908E83
-#FBBE00 */
-
-/* Not an AG color offically but a great bg color for now. */
-/* #eee */
