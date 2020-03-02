@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: black;
+    color: #212529;
 }
 
 a:active, a:hover {
@@ -43,10 +43,6 @@ nav.navbar.navbar-dark.bg-ag-dark  {
 
 .nav-banner {
     background-color: #D3461D;
-}
-
-.navbar-dark .navbar-toggler {
-    border-color: rgba(255,255,255,.5);
 }
 
 .navbar.navbar-dark.bg-ag-dark, #navbarToggleExternalContent, #test123456789 {
@@ -99,8 +95,6 @@ main > .container {
 footer {
     /* background: url(../assets/images/agFooterUnofficial.jpg); */
     height: 100px;
-    /* background-repeat: no-repeat;
-    background-position: center; */
 }
 
 #menu-category-page  ul  li {
