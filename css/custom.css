@@ -3,10 +3,11 @@ body {
 }
 
 a {
-    color: #212529;
+    color: inherit;
 }
 
-a:active, a:hover {
+a:active, 
+a:hover {
     color: #D3461D;
     text-decoration: none;
 }
@@ -45,7 +46,9 @@ nav.navbar.navbar-dark.bg-ag-dark  {
     background-color: #D3461D;
 }
 
-.navbar.navbar-dark.bg-ag-dark, #navbarToggleExternalContent, #test123456789 {
+.navbar.navbar-dark.bg-ag-dark,
+#navbarToggleExternalContent,
+#test123456789 {
     background-image: url(../assets/graphicElements/agConcreteDark.png);
 }
 
@@ -97,17 +100,17 @@ footer {
     height: 100px;
 }
 
-#menu-category-page  ul  li {
+#menu-category-page ul li {
     list-style-type: none !important;
     border-top: 1px solid #cacaca;
 }
 
-#menu-category-page  ul  li:nth-last-child(1) {
+#menu-category-page ul li:nth-last-child(1) {
     border-bottom: 1px solid #cacaca;
 }
 
 
-#menu-category-page  ul {
+#menu-category-page ul {
     padding: 0;
     margin: 0;
 }
@@ -116,7 +119,9 @@ footer {
     text-align: center;
 }
 
-#menu-category-page h2, #menu-category-page h3, #menu-category-page h4 {
+#menu-category-page h2, 
+#menu-category-page h3, 
+#menu-category-page h4 {
     padding: 1.25rem .5rem;
     margin: 0;
     font-size: 1.5rem;
