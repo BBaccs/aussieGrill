@@ -48,8 +48,7 @@ nav.navbar.navbar-dark.bg-ag-dark  {
 }
 
 .navbar.navbar-dark.bg-ag-dark,
-#navbarToggleExternalContent,
-#test123456789 {
+#navbarToggleExternalContent {
     background-image: url(../assets/agOfficialSwatches/agConcreteDark.jpg);
 }
 
@@ -78,8 +77,22 @@ button {
     border-color: #CE461C;
 }
 
-.nav-link {
+.nav-link,
+.btn-primary,
+.cta {
     color: white;
+}
+
+.btn.cta {
+    border: 1px solid white;
+}
+
+.cta-banner {
+    background-color: #D3461D;
+    border: 1px solid #CE461C;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
 }
 
 button {
@@ -89,6 +102,22 @@ button {
 .carousel-item > img {
     min-width: 450px;
     transform: scale3d(1, 1, 1) translateX(0px);
+}
+
+/* HOMEPAGE */
+
+.homepage-subheading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-subHeading {
+    font-family: Gibson-SemiBold;
+    line-height: .9230769230769231em;
+    margin-bottom: 2px;
+    letter-spacing: .2px; font-size: 1.5rem; 
+    text-align: center;
 }
 
 /* MENU CATEGORY PAGE */
@@ -149,6 +178,7 @@ footer {
     border-radius: 10px;
     cursor: pointer;
     margin: 0 5px;
+    bottom: -2.5rem;
 }
 .carousel-indicators li.active {
     background-color: #D3461D;
