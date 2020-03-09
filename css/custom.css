@@ -131,6 +131,12 @@ button {
     height: 200px;
 }
 
+.carousel-logo {
+    position: relative;
+    top: 70px;
+    width: 50%;
+}
+
 /* MENU CATEGORY PAGE */
 main > .container {
     margin-top: 20px;
