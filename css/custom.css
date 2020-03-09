@@ -44,12 +44,12 @@ nav.navbar.navbar-dark.bg-ag-dark  {
 
 .nav-banner {
     background-color: #D3461D;
+    font-size: .9rem;
 }
 
 .navbar.navbar-dark.bg-ag-dark,
-#navbarToggleExternalContent,
-#test123456789 {
-    background-image: url(../assets/graphicElements/agConcreteDark.png);
+#navbarToggleExternalContent {
+    background-image: url(../assets/agOfficialSwatches/agConcreteDark.jpg);
 }
 
 
@@ -77,8 +77,22 @@ button {
     border-color: #CE461C;
 }
 
-.nav-link {
+.nav-link,
+.btn-primary,
+.cta {
     color: white;
+}
+
+.btn.cta {
+    border: 1px solid white;
+}
+
+.cta-banner {
+    background-color: #D3461D;
+    border: 1px solid #CE461C;
+    height: 60px;
+    position: fixed;
+    bottom: 0px;
 }
 
 button {
@@ -90,13 +104,46 @@ button {
     transform: scale3d(1, 1, 1) translateX(0px);
 }
 
+/* HOMEPAGE */
+
+#homepage-container {
+    background-image: url(assets/agOfficialSwatches/agButcherPaperWhite.jpg);
+    background-size: contain;
+}
+
+.homepage-subheading-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-subHeading {
+    font-family: Gibson-SemiBold;
+    line-height: .9230769230769231em;
+    margin-bottom: 2px;
+    letter-spacing: .2px; font-size: 1.5rem; 
+    text-align: center;
+    margin-bottom: 1rem !important;
+    margin-top: 1rem !important;
+}
+
+.subheading-img {
+    height: 200px;
+}
+
+.carousel-logo {
+    position: relative;
+    top: 70px;
+    width: 50%;
+}
+
 /* MENU CATEGORY PAGE */
 main > .container {
     margin-top: 20px;
 }
 
 footer {
-    /* background: url(../assets/images/agFooterUnofficial.jpg); */
+    /* background: url(../assets/foodImages/categoryImages/mobileagFooterUnofficial.jpg); */
     height: 100px;
 }
 
@@ -148,6 +195,7 @@ footer {
     border-radius: 10px;
     cursor: pointer;
     margin: 0 5px;
+    bottom: -2.5rem;
 }
 .carousel-indicators li.active {
     background-color: #D3461D;
