@@ -107,7 +107,7 @@ button {
 /* HOMEPAGE */
 
 #homepage-container {
-    background-image: url(assets/agOfficialSwatches/agButcherPaperWhite.jpg);
+    background-image: url(../assets/agOfficialSwatches/agButcherPaperWhite.jpg);
     background-size: contain;
 }
 
