@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6 {
 
 footer {
     /* background: url(../assets/foodImages/categoryImages/mobileagFooterUnofficial.jpg); */
-    height: 100px;
+    height: 6.25rem;
 }
 
 /* MAYBE DELETE IT WORKED BEFORE FINE */
@@ -68,6 +68,11 @@ nav.navbar.navbar-dark.bg-ag-dark  {
     font-size: .75rem;
 }
 
+.nav-border {
+    border-image: url(../assets/agGraphicElements/lineGray.png) 30;
+    border-bottom: .3125rem solid;
+}
+
 button {
     border: 0;
     padding: 0;
@@ -89,15 +94,15 @@ button {
 }
 
 .btn.cta {
-    border: 1px solid white;
+    border: .0625rem solid white;
 }
 
 .cta-banner {
     background-color: #D3461D;
-    border: 1px solid #CE461C;
+    border: .0625rem solid #CE461C;
     height: 3.9rem;
     position: fixed;
-    bottom: 0px;
+    bottom: 0rem;
 }
 
 button {
@@ -116,7 +121,6 @@ button {
 
 #homepage-container {
     background-image: url(../assets/agOfficialSwatches/agButcherPaperWhite.jpg);
-    background-size: contain;
 }
 
 .homepage-subheading-wrapper {
@@ -128,35 +132,36 @@ button {
 .homepage-subHeading {
     font-family: Gibson-SemiBold;
     line-height: .9230769230769231em;
-    margin-bottom: 2px;
-    letter-spacing: .2px; font-size: 1.5rem; 
+    margin-bottom: .125rem;
+    letter-spacing: .0125rem;
+    font-size: 1.5rem; 
     text-align: center;
     margin-bottom: 1rem !important;
     margin-top: 1rem !important;
 }
 
 .subheading-img {
-    height: 200px;
+    height: 12.5rem;
 }
 
 .carousel-logo {
     position: relative;
-    top: 70px;
+    top: 4.375rem;
     width: 50%;
 }
 
 .carousel-item > img {
-    min-width: 450px;
+    min-width: 28.125rem;
     transform: scale3d(1, 1, 1) translateX(0px);
 }
 
 .carousel-indicators li {
     position: relative;
-    width: 10px;
-    height: 10px;
+    width: .625rem;
+    height: .625rem;
     border: 1px solid #212529;
     background-color: #212529;
-    border-radius: 10px;
+    border-radius: .625rem;
     cursor: pointer;
     margin: 0 5px;
     bottom: -2.75rem;
@@ -175,7 +180,7 @@ main > .container {
     margin-top: 20px;
 }
 
-.menu-page {
+.menu-page-bg {
     background-image: url(../assets/agOfficialSwatches/agButcherPaperWhite.jpg);
     background-repeat: round;
 }
@@ -223,8 +228,8 @@ main > .container {
 /* Item Menu Pages*/
 .pig-graphic {
     position: relative;
-    bottom: 141px;
-    right: -125px;
+    bottom: 8.6875rem;
+    right: -7.8125rem;
 }
 
 .menu-category {
