@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
     text-transform: uppercase !important;
 }
@@ -36,6 +38,11 @@ h1,h2,h3,h4,h5,h6 {
     font-family: bureauGrotCondensedBook !important;  
 }
 
+footer {
+    /* background: url(../assets/foodImages/categoryImages/mobileagFooterUnofficial.jpg); */
+    height: 100px;
+}
+
 /* MAYBE DELETE IT WORKED BEFORE FINE */
 nav.navbar.navbar-dark.bg-ag-dark  {
     padding-left: .5rem;
@@ -67,11 +74,6 @@ button {
     color: inherit;
 }
 
-.menu-item-container {
-    background-color: rgb(0,0,0,.75);
-}
-
-
 .btn-primary {
     background-color: #D3461D;
     border-color: #CE461C;
@@ -99,10 +101,13 @@ button {
     font-size: 1.5rem;
 }
 
-.carousel-item > img {
-    min-width: 450px;
-    transform: scale3d(1, 1, 1) translateX(0px);
+.menu-item-container {
+    background-color: rgb(0,0,0,.75);
 }
+
+
+
+
 
 /* HOMEPAGE */
 
@@ -137,14 +142,23 @@ button {
     width: 50%;
 }
 
+.carousel-item > img {
+    min-width: 450px;
+    transform: scale3d(1, 1, 1) translateX(0px);
+}
+
+
+
+
+
 /* MENU CATEGORY PAGE */
 main > .container {
     margin-top: 20px;
 }
 
-footer {
-    /* background: url(../assets/foodImages/categoryImages/mobileagFooterUnofficial.jpg); */
-    height: 100px;
+#menu-category-page {
+    background-image: url(../assets/agOfficialSwatches/agButcherPaperWhite.jpg);
+    background-repeat: round;
 }
 
 #menu-category-page ul li {
@@ -156,19 +170,18 @@ footer {
     border-bottom: 1px solid #cacaca;
 }
 
-
 #menu-category-page ul {
     padding: 0;
     margin: 0;
 }
 
-#menu-category-page div {
+.menu-page div {
     text-align: center;
 }
 
-#menu-category-page h2, 
-#menu-category-page h3, 
-#menu-category-page h4 {
+.menu-page h2,
+.menu-page h3,
+.menu-page h4 {
     padding: 1.25rem .5rem;
     margin: 0;
     font-size: 1.5rem;
@@ -182,7 +195,7 @@ footer {
     border-color: #CE461C;
 }
 
-#menu-category-page * {
+.menu-page * {
     font-family: bureauGrotCondensedBook !important;  
 }
 
@@ -197,6 +210,7 @@ footer {
     margin: 0 5px;
     bottom: -2.5rem;
 }
+
 .carousel-indicators li.active {
     background-color: #D3461D;
     border: 1px solid #CE461C;
