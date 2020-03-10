@@ -228,6 +228,10 @@ main > .container {
     font-family: bureauGrotCondensedBook !important;  
 }
 
+.select-category-bg {
+    background-image: url(../assets/agOfficialSwatches/agButcherPaperWhite.jpg);
+}
+
 
 /* Item Menu Pages*/
 .pig-graphic {
