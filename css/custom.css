@@ -1,7 +1,7 @@
 /* GLOBAL */
 
-body {
-    text-transform: uppercase !important;
+body, body * {
+    text-transform: uppercase;
 }
 
 a {
@@ -43,6 +43,10 @@ footer {
     height: 6.25rem;
 }
 
+footer * {
+    text-transform: capitalize !important;
+}
+
 /* MAYBE DELETE IT WORKED BEFORE FINE */
 nav.navbar.navbar-dark.bg-ag-dark  {
     padding-left: .5rem;
@@ -55,7 +59,8 @@ nav.navbar.navbar-dark.bg-ag-dark  {
 }
 
 .navbar.navbar-dark.bg-ag-dark,
-#navbarToggleExternalContent {
+#navbarToggleExternalContent,
+footer {
     background-image: url(../assets/agOfficialSwatches/agConcreteDark.jpg);
 }
 
@@ -130,7 +135,6 @@ button {
 }
 
 .homepage-subHeading {
-    font-family: Gibson-SemiBold;
     line-height: .9230769230769231em;
     margin-bottom: .125rem;
     letter-spacing: .0125rem;
@@ -240,3 +244,12 @@ main > .container {
     background-image: url(../assets/agOfficialSwatches/agConcreteDark.jpg);
     color: white;
 }
+
+.individual-menu-item-page h1 {
+    color: #D3461D;
+}
+
+.individual-menu-item-page span {
+    color: #212529;
+}
+
