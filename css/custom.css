@@ -74,7 +74,7 @@ footer {
 }
 
 .nav-border {
-    border-image: url(../assets/agGraphicElements/lineGray.png) 30;
+    border-image: url(../assets/agGraphicElements/mobile/lineGray500x12.png) 30;
     border-bottom: .3125rem solid;
 }
 
